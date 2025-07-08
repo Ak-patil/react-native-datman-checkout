@@ -13,8 +13,12 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      {messages.map((msg) => (
-        <MessageBubble text={msg.text} isSender={msg.userID === 1} />
+      {messages.map((msg, index) => (
+        <MessageBubble
+          key={index}
+          text={msg.text}
+          isSender={msg.userID === 1}
+        />
       ))}
     </View>
   );
