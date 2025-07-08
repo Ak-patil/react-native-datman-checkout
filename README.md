@@ -15,7 +15,7 @@ import { MessageBubble } from 'react-native-datman-checkout';
 
 export default function App() {
   const messages = [
-    { text: 'Hi', userID: 1 },
+    { text: 'Hello', userID: 1 },
     { text: 'Hi', userID: 2 },
     { text: 'How are you?', userID: 1 },
     { text: 'I am good, how are you?', userID: 2 },
